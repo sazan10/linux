@@ -15,4 +15,5 @@ jobs:
 
     - name: Build HandBrake Linux
       run: |
-         make
+         make LLVM=1
+
