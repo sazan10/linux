@@ -15,6 +15,6 @@ jobs:
 
     - name: Build 
       run: |
-         make mrproper
+        make V=1 all
 
 
