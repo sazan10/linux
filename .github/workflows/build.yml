@@ -15,7 +15,7 @@ jobs:
 
     - name: Build 
       run: |
-        make config
+        make menuconfig
         make V=1 all
 
 
