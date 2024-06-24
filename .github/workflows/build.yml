@@ -13,7 +13,7 @@ jobs:
       with:
         ref: 51c5d2bb01d3a0cff31d00686f35ed8f33039f78
 
-    - name: Build HandBrake Linux
+    - name: Build 
       run: |
-         make LLVM=1
+         make menuConfig LLVM=1
 
