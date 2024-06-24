@@ -15,6 +15,7 @@ jobs:
 
     - name: Build 
       run: |
+        make config
         make V=1 all
 
 
